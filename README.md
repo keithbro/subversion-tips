@@ -1,5 +1,11 @@
 # Subversion Tips
 
+## Creating a diff
+
+This can be useful when you want to share your changes with someone else.
+
+    svn diff > my_changes.diff
+
 ## Applying a patch (or diff) to your local codebase
 
 From the directory in which the diff was created...
